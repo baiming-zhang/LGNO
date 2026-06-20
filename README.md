@@ -164,7 +164,7 @@ The mean squared error is:
 
 $$
 e_{\mathrm{MSE}} =
-\operatorname{mean}\left((\hat{y}-y)^2\right).
+\mathrm{mean}\left((\hat{y}-y)^2\right).
 $$
 
 For time-dependent cases, the documentation distinguishes among three types of errors:
