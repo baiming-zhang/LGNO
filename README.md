@@ -9,7 +9,6 @@ Included cases:
 - 2D incompressible Navier–Stokes;
 - 2D Gross–Pitaevskii;
 - 3D perturbed-harmonic Schrödinger;
-- 3D Houdini smoke collision;
 - robustness under multiplicative input noise.
 
 ## 1. Directory structure
@@ -26,7 +25,6 @@ LGNO/
 ├── 2D Navier-Stokes/
 ├── 2D Gross-Pitaevskii/
 ├── 3D Schrodinger (Perturbed Harmonic)/
-├── 3D Houdini (Smoke collision)/
 └── Robustness/
 ```
 
@@ -103,7 +101,6 @@ python run_lgno.py navier-stokes-2d --hidden 16
 python run_lgno.py gpe-2d-folded --hidden 12
 python run_lgno.py gpe-2d-unfolded --hidden 12
 python run_lgno.py perturbed-harmonic-3d
-python run_lgno.py houdini-3d
 python run_lgno.py robust
 ```
 
@@ -196,7 +193,6 @@ These values come from the completed experiment outputs documented in each case 
 | 2D GPE folded    | hidden 12                 |        370 |            0.116089 |      7,589.10 s |
 | 2D GPE unfolded  | hidden 12                 |        500 |            0.378591 |      6,667.06 s |
 | 3D Schrödinger   | hidden 16                 |        988 |          0.00313018 |     53,905.90 s |
-| 3D Houdini smoke | hidden 8                  |        583 |           0.2396480 |       1225.81 s |
 | Robustness, $\alpha = 0.00$       | hidden 8 |        233 |            0.125916 |         11.45 s |
 | Robustness, $\alpha = 0.10$       | hidden 8 |        233 |            0.286023 |         11.78 s |
 
@@ -217,5 +213,4 @@ These values come from the completed experiment outputs documented in each case 
 - [2D Navier–Stokes](<2D Navier-Stokes/README.md>)
 - [2D Gross–Pitaevskii](<2D Gross-Pitaevskii/README.md>)
 - [3D Schrödinger](<3D Schrodinger (Perturbed Harmonic)/README.md>)
-- [3D Houdini smoke collision](<3D Houdini (Smoke collision)/README.md>)
 - [Robustness](Robustness/README.md)
